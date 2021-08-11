@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Alexana Neue;
+  src: url(../fonts/AlexanaNeue.woff);
+}
+
+
+body{
+  font-family: 'Alexana Neue', sans-serif;
+  letter-spacing: 0.3em;
+}
+
+.dark{
+      background-color:black
+    }
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+canvas{
+  position: absolute;
+  z-index: -1;
+  height:100vh;
+  width:100vw
+}
+
+.name{
+  text-align: center;
+  color:white;
+  font-size: 10vh;
+  position:relative;
+  top: 75vh;
+}
+
+.neonText {
+color: #fff;
+text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 20px #000000, 0 0 0px #0fa, 0 0 0px #0fa, 0 0 0px #0fa, 0 0 0px #0fa;
+}
+
+#image2 {
+-webkit-animation: rotation2 10s infinite linear;
+}
+@-webkit-keyframes rotation2 {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
+
+#image3 {
+-webkit-animation: rotation3 4s infinite linear;
+}
+@-webkit-keyframes rotation3 {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(-359deg);
+  }
+}
